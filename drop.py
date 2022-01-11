@@ -12,7 +12,7 @@ def drop_tables():
     path = os.getcwd()
 
     credentials = service_account.Credentials.from_service_account_file(
-        f'{path}/scrap-sauter-b84203485905.json',
+        f'{path}/dbcredential.json',
     )
 
 
