@@ -70,14 +70,11 @@ Abaixo, poderá ver o report gerado automáticamente pela lib Pandas-Profiling. 
 
 ### Bibliotecas Usadas:
 
-- Google-Play_Scraper  -> para fazer o scraping
-- Pandas-Profiling     -> para gerar os reports em html
-- Pandas_gbq           -> para manipular o banco de dados Google BigQuery
-- Pandas               -> para manipular os csv que irão para o banco
-- NumPy                -> para manipulação das tabelas
-- Google Auth          -> para autenticação da api do banco
-- Time                 -> temporizador entre comandos
-- os                   -> lib nativa do python que usa o sistema
+- google-play-scraper  -> para fazer o scraping
+- pandas-profiling     -> para gerar os reports em html
+- pandas-gbq           -> para manipular o banco de dados Google BigQuery
+- pandas               -> para manipular os csv que irão para o banco
+- google-auth          -> para autenticação da api do banco
 
 
   ### O fluxo de toda a execução é:
