@@ -1,8 +1,5 @@
 #!/bin/bash
 
-echo "by github.com/eduumach"
-sleep 5
-
 echo "criando venv"
 sleep 2
 python3 -m venv scrap-env
