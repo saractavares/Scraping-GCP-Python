@@ -23,31 +23,14 @@
 ```
   $ cd scrap_sauter_desafio
 ```
-   <li>  Agora crie sua Virtual env python, como de costume e depois a inicie: </li>
+   <li>  Abra a pasta com seu editor ou se for VS Code, apenas digite " code . " no terminal </li>
+   <li>  Com o editor aberto, insira na raiz do projeto a credencial do banco, o arquivo json copmpartilhado no Google Drive  </li>
+   <li>  Pronto, execute o script shell! Ele instalará as libs necessárias e já iniciará a execução do programa! </li>  
+
+  ```
+  $ sh run.sh
+  ```
   
-```
-// Linux e Mac:
-
-$ python3 -m venv scrap-env
-$ source scrap-env/bin/activate
-
-// Para Windows:
-
-> python -m venv c:\path\to\scrap-env
-> scrap-env env/Scripts/Activate
-```
-
-  <li>  Com a venv criada, vamos instalar os pacotes necessários! Para não ter que instalar um a um, criei um arquivo requirements.txt. Você só precisa rodar os seguinte comandos no terminal: </li>
-  
-```
-pip install -r requirements.txt
-```
-  
-  | Lembre-se de colocar a credencial de acesso ao banco de dados dentro da raiz do projeto. Ela foi enviada pelo drive. Baixe-a e coloque-a na raiz. |
-  | --- |
-     
-  <li>  Tudo pronto, pode executar o arquivo main.py! Este é o arquivo central e é ele quem executa todos os módulos na sequencia correta. </li>
-</ol>
 <p> Ao terminar o processo, o módulo clear.py fará a limpeza dos arquivos locais que foram usados para atualizar o BigQuery. Ao temrinar você verá a seguinte mensagem no terminal: </p>
 
 <div align="center">
