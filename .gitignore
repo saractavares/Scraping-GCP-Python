@@ -2,13 +2,5 @@
 
 /scrap-env
 /__pycache__
-/Report_Negativas.html
-/Report_Neutras.html
-/Report_Positivas.html
-/df_positiva.csv
-/df_neutra.csv
-/df_negativa.csv
-/df_final.csv
-/df_positiva_bkp.csv
-/df_neutra_bkp.csv
-/df_negativa_bkp.csv
+/Report*
+/df*
