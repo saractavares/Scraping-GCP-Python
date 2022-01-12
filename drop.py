@@ -22,7 +22,10 @@ def drop_tables():
 
         DROP TABLE scrap-sauter.Tables.neutras ;
 
-        DROP TABLE scrap-sauter.Tables.negativas
+        DROP TABLE scrap-sauter.Tables.negativas ;
+
+        DROP TABLE scrap-sauter.Tables.completa
+        
         """
 
         df = pandas_gbq.read_gbq(sql, project_id="scrap-sauter", credentials=credentials)
