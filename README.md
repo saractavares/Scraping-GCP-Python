@@ -72,10 +72,13 @@ Abaixo, poderá ver o report gerado automáticamente pela lib Pandas-Profiling. 
 4º drop.py -> faz -> checagem se existe já tabelas no banco de dados, se sim, as apaga 
   depois   -> invoca -> insert_tables.py
 5º insert_tables.py -> faz -> inserção dos arquivos csv nas tabelas correspondentes por meio de pandas_gbq
-           depois   -> invoca -> limpar.py
-6º limpar.py -> faz -> limpeza dos arquivos csv já consumidos da raiz local
+           depois   -> invoca -> clear.py
+6º clear.py -> faz -> limpeza dos arquivos csv já consumidos da raiz local
 
 --- Fim do Processo --- 
+  
+  * módulo extra *
+  reports_clear.py -> limpa os reports gerados da raiz do projeto. Acionado manualmente quando necessário.
 ```
 <div align=center> 
   <a href="https://instagram.com/dadososfatos/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
